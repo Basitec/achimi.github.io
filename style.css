@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+}
+div.left{
+    display: flex;
+
+}
+div.headertop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(228, 229, 61, 1);
+    padding: 2px 0px;
+    line-height: 30px;
+}
+img{
+    width: 260px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+i{
+    padding: 0px 7px;
+}
+div.headerbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+div{
+    display: inline;
+}
+div.headerbottom a{
+    color: rgb(0, 0, 0);
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+}
+div.headertop a{
+    text-decoration: none;
+    color: #000;
+}
+div.headerright{
+    margin-right: 40px;
+}
+section{
+    background-image: url(/images/pexels-pixabay-163726.jpg);
+    background-size: cover;
+    padding: 10em 0em;
+ }
+h1{
+    color: #fff;
+    font-size: 4.5em;
+    /* text-align: start; */
+    /* padding: 20px; */
+    font-family: Raleway;
+}
+section p{
+    text-align: center;
+    color: #fff;
+    font-size: x-large;
+}
+button.first{
+    background-color: #ff0;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    border-width: 0px;
+    display: block;
+    margin: auto 5px;
+    transition: 0.8s;
+
+}
+button.first a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+button.second{
+    background-color: transparent;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #ff0;
+    border-bottom-color: #ff0;
+    color: #fff;
+    /* display: block;
+    margin: auto 5px; */
+    transition: 0.8s;
+}
+button.second a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+div.button1{
+    align-items: center;
+    display: flex;
+    margin: 5px 30em;
+}
+button.first:hover{
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.8s;
+}
+/* button.first a:hover{
+    color: #fff;
+} */
+button.second:hover{
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+    border: 0px;
+    /* border-color: #000; */
+    border-width: 0px;
+}
